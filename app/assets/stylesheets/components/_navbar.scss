@@ -1,12 +1,27 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.side-nav {
+  padding: 48px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #F7F4EF;
+    h1 {
+      margin-top: 24px;
+    }
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.side-link {
+  list-style-type: none;
+  padding-left: 0px;
+    li {
+      margin-top: 36px;
+    }
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.nav-avatar {
+  display: block;
+  margin: 0 auto;
 }
+
+
